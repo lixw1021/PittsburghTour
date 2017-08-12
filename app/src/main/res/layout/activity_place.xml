@@ -36,7 +36,8 @@
         <TextView
             android:id="@+id/place_open_time_text_view"
             style="@style/icon"
-            android:drawableStart="@drawable/ic_access_time_black_24dp" />
+            android:drawableStart="@drawable/ic_access_time_black_24dp"
+            android:text="Mon - Fri : 9 am -5 pm \nSat - Sun: 9 am - 8 pm"/>
 
         <TextView
             android:id="@+id/place_phone_text_view"

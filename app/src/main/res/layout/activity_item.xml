@@ -9,12 +9,14 @@
         android:layout_height="200dp">
 
         <ImageView
+            android:id="@+id/item_image_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:src="@drawable/cmunatural" />
 
         <TextView
+            android:id="@+id/item_title_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -27,6 +29,7 @@
     </RelativeLayout>
 
     <RatingBar
+        android:id="@+id/item_rating_bar"
         style="?android:attr/ratingBarStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,6 +41,7 @@
         android:rating="4.5" />
 
     <TextView
+        android:id="@+id/item_summary_text_view"
         android:paddingStart="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
