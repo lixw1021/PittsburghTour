@@ -1,16 +1,17 @@
 package com.xianwei.pittsburghtour;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Button;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * Created by xianwei li on 8/11/2017.
@@ -32,6 +33,10 @@ public class PlaceActivity extends AppCompatActivity {
     @BindView(R.id.place_description)
     TextView description;
 
+    private String urlString;
+    private String stringPhoneNumber;
+    private String stringLocation;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,12 +47,51 @@ public class PlaceActivity extends AppCompatActivity {
 
     private void setupUI(Intent intent) {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        urlString = intent.getStringExtra("Website");
+        stringPhoneNumber = intent.getStringExtra("Phone");
+        stringLocation = intent.getStringExtra("Location");
+
         imageView.setImageResource(intent.getIntExtra("ImageResourceId", 0));
         title.setText(intent.getStringExtra("Title"));
-        address.setText(intent.getStringExtra("Location"));
+        address.setText(stringLocation);
         openTime.setText(intent.getStringExtra("OpenTime"));
-        phone.setText(intent.getStringExtra("Phone"));
-        website.setText(intent.getStringExtra("Website"));
+        phone.setText(stringPhoneNumber);
+        website.setText(urlString);
         description.setText(intent.getStringExtra("Description"));
+    }
+
+    @OnClick(R.id.place_address_text_view)
+    void openMap(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, geoLocation(stringLocation));
+        startActivity(browserIntent);
+    }
+
+    @OnClick(R.id.place_website_text_view)
+    void openWebsite(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(urlString));
+        startActivity(browserIntent);
+    }
+
+    @OnClick(R.id.place_phone_text_view)
+    void call(View view) {
+        Intent callIntent = new Intent(Intent.ACTION_DIAL);
+        callIntent.setData(Uri.parse(stringPhoneNumberToUriString(stringPhoneNumber)));
+        startActivity(callIntent);
+    }
+
+    private Uri geoLocation(String stringLocation) {
+        StringBuilder result = new StringBuilder("geo:0,0?q=");
+        result.append(stringLocation.replace(" ", "+").replace(",", "+"));
+        return Uri.parse(result.toString());
+    }
+
+    String stringPhoneNumberToUriString(String phoneNumber) {
+        StringBuilder result = new StringBuilder("tel:");
+        for (int i = 0; i < phoneNumber.length(); i++) {
+            if (phoneNumber.charAt(i) >= '0' && phoneNumber.charAt(i) <= '9') {
+                result.append(phoneNumber.charAt(i));
+            }
+        }
+        return result.toString();
     }
 }

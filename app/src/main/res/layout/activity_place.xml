@@ -43,7 +43,7 @@
             android:id="@+id/place_phone_text_view"
             style="@style/icon"
             android:drawableStart="@drawable/ic_phone_black_24dp"
-            tools:text="+1 412-622_3131" />
+            tools:text="+1 412-622-3131" />
 
         <TextView
             android:id="@+id/place_website_text_view"

@@ -19,7 +19,6 @@
 
         <activity android:name=".PlaceActivity"
             android:parentActivityName=".MainActivity">
-
         </activity>
     </application>
 
