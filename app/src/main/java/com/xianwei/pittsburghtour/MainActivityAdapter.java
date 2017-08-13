@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class MainActivityAdapter extends FragmentPagerAdapter {
 
-    private String tableTitles[] = new String[] {"Top Spots", "Eat&Drink"};
+    private String tableTitles[] = new String[] {"Top Spots", "Eat&Drink", "Museum"};
     public MainActivityAdapter(FragmentManager fm) {
         super(fm);
     }
@@ -22,6 +22,8 @@ public class MainActivityAdapter extends FragmentPagerAdapter {
                 return new TopSpotsFragment();
             case 1:
                 return new EatAndDrinkFragment();
+            case 2:
+                return new MuseumFragment();
             default:
                 return null;
         }
@@ -29,7 +31,7 @@ public class MainActivityAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 
     @Override

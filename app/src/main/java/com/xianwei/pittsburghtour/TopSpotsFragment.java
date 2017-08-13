@@ -31,7 +31,7 @@ public class TopSpotsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.activity_list_root, container, false);
         ButterKnife.bind(this, rootView);
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.cmunatural,
+        places.add(new Place(R.drawable.museum_cmu_natural,
                 4.5f,
                 "Carnegie Museum of Natural History",
                 "Exhibition on bones, gems and ecosystem",
@@ -41,7 +41,7 @@ public class TopSpotsFragment extends Fragment {
                 "http://cmoa.org/",
                 "The museum consists of 115,000 square feet (10,700 m2) organized into 20 galleries as well as research, library, and office space. It holds some 22 million specimens, of which about 10,000 are on view at any given time and about 1 million are cataloged in online databases. In 2008 it hosted 386,300 admissions and 63,000 school group visits. Museum education staff also actively engage in outreach by traveling to schools all around western Pennsylvania."));
 
-        places.add(new Place(R.drawable.cmunatural,
+        places.add(new Place(R.drawable.museum_cmu_natural,
                 4.0f,
                 "Carnegie Museum",
                 "Exhibition on bones, gems and ecosystem",
@@ -51,7 +51,7 @@ public class TopSpotsFragment extends Fragment {
                 "http://cmoa.org/",
                 "The museum consists of 115,000 square feet (10,700 m2) organized into 20 galleries as well as research, library, and office space. It holds some 22 million specimens, of which about 10,000 are on view at any given time and about 1 million are cataloged in online databases. In 2008 it hosted 386,300 admissions and 63,000 school group visits. Museum education staff also actively engage in outreach by traveling to schools all around western Pennsylvania."));
 
-        places.add(new Place(R.drawable.cmunatural,
+        places.add(new Place(R.drawable.museum_cmu_natural,
                 4.0f,
                 "Carnegie Museum",
                 "Exhibition on bones, gems and ecosystem",
@@ -61,7 +61,7 @@ public class TopSpotsFragment extends Fragment {
                 "http://cmoa.org/",
                 "The museum consists of 115,000 square feet (10,700 m2) organized into 20 galleries as well as research, library, and office space. It holds some 22 million specimens, of which about 10,000 are on view at any given time and about 1 million are cataloged in online databases. In 2008 it hosted 386,300 admissions and 63,000 school group visits. Museum education staff also actively engage in outreach by traveling to schools all around western Pennsylvania."));
 
-        places.add(new Place(R.drawable.cmunatural,
+        places.add(new Place(R.drawable.museum_cmu_natural,
                 4.0f,
                 "Carnegie Museum",
                 "Exhibition on bones, gems and ecosystem",

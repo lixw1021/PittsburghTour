@@ -39,7 +39,7 @@ public class EatAndDrinkFragment extends Fragment {
                 "New American dishes & craft cocktails",
                 "1230 Grandview Ave, Pittsburgh, PA 15211",
                 "+1 412-904-4442",
-                "altiusrestaurantpittsburgh.com"));
+                "http://altiusrestaurantpittsburgh.com"));
 
         places.add(new Place(R.drawable.restaurant_lemont,
                 5.0f,
@@ -47,7 +47,7 @@ public class EatAndDrinkFragment extends Fragment {
                 "Upscale eatery & event space offers Continental fare, city views, banquets & a live music lounge",
                 "1114 Grandview Ave, Pittsburgh, PA 15211",
                 "+1 412-431-3100",
-                "lemontpittsburgh.com"));
+                "http://lemontpittsburgh.com"));
 
         places.add(new Place(R.drawable.restaurant_church,
                 4.5f,
@@ -55,7 +55,7 @@ public class EatAndDrinkFragment extends Fragment {
                 "Former church is now a lofty space for house-brewed beers, plus a mix of pizza, pierogi & bratwurst",
                 "3525 Liberty Ave, Pittsburgh, PA 15201",
                 "+1 412-688-8200",
-                "churchbrew.com"));
+                "http://churchbrew.com"));
 
         places.add(new Place(R.drawable.restaurant_point,
                 4.5f,
@@ -63,7 +63,7 @@ public class EatAndDrinkFragment extends Fragment {
                 "Cozy European-style bistro with indoor & outdoor seating offers Belgian-inspired dishes & brunch",
                 "401 Hastings St, Pittsburgh, PA 15206",
                 "+1 412-441-3334",
-                "pointbrugge.com"));
+                "http://pointbrugge.com"));
 
         places.add(new Place(R.drawable.restaurant_sichuan,
                 4.5f,
@@ -71,7 +71,7 @@ public class EatAndDrinkFragment extends Fragment {
                 "Casual Chinese eatery offering a menu of staples plus many spicy Sichuan dishes in a bright space",
                 "1900 Murray Ave, Pittsburgh, PA 15217",
                 "+1 412-521-1313",
-                "sichuangourmetpa.com"));
+                "http://sichuangourmetpa.com"));
 
         places.add(new Place(R.drawable.restaurant_everyday,
                 4.5f,
@@ -79,7 +79,7 @@ public class EatAndDrinkFragment extends Fragment {
                 "A casual Chinese eatery specializing in noodle dishes that's known for its kitchen viewing window",
                 "5875 Forbes Ave, Pittsburgh, PA 15217",
                 "+1 412-421-6668",
-                "everydaynoodlespgh.com"));
+                "http://everydaynoodlespgh.com"));
 
         placePlaceAdapter = new PlaceAdapter(getActivity(), places);
         listView.setAdapter(placePlaceAdapter);
