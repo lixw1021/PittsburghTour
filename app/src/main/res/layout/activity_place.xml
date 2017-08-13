@@ -25,34 +25,34 @@
             android:paddingTop="10dp"
             android:textColor="#000000"
             android:textSize="18sp"
-            tools:text="Carnegie Museum of Natural History" />
+            tools:text="@string/top_spots_carnegie_museum_of_natural_history_title" />
 
         <TextView
             android:id="@+id/place_address_text_view"
             style="@style/icon"
             android:background="?selectableItemBackground"
             android:drawableStart="@drawable/ic_location_on_black_24dp"
-            tools:text="4400 Forbes Ave, Pittsburgh, PA 15213, USA" />
+            tools:text="@string/top_spots_carnegie_museum_of_natural_history_location" />
 
         <TextView
             android:id="@+id/place_open_time_text_view"
             style="@style/icon"
             android:drawableStart="@drawable/ic_access_time_black_24dp"
-            tools:text="Mon - Fri : 9 am -5 pm \nSat - Sun: 9 am - 8 pm" />
+            tools:text="@string/top_spots_carnegie_museum_of_natural_history_open_time" />
 
         <TextView
             android:id="@+id/place_phone_text_view"
             style="@style/icon"
             android:background="?selectableItemBackground"
             android:drawableStart="@drawable/ic_phone_black_24dp"
-            tools:text="+1 412-622-3131" />
+            tools:text="@string/top_spots_carnegie_museum_of_natural_history_phone" />
 
         <TextView
             android:id="@+id/place_website_text_view"
             style="@style/icon"
             android:background="?selectableItemBackground"
             android:drawableStart="@drawable/ic_public_black_24dp"
-            tools:text="http://cmoa.org/" />
+            tools:text="@string/top_spots_carnegie_museum_of_natural_history_website" />
 
         <TextView
             android:id="@+id/place_description"
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:textSize="16sp"
-            tools:text="The museum consists of" />
+            tools:text="@string/top_spots_carnegie_museum_of_natural_history_description" />
 
     </LinearLayout>
 

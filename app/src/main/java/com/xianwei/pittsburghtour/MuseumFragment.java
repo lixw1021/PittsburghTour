@@ -37,7 +37,7 @@ public class MuseumFragment extends Fragment {
                 getString(R.string.top_spots_carnegie_museum_of_natural_history_title),
                 getString(R.string.top_spots_carnegie_museum_of_natural_history_introduction),
                 getString(R.string.top_spots_carnegie_museum_of_natural_history_location),
-                getString(R.string.top_spots_carnegie_museum_of_natural_history_open_tome),
+                getString(R.string.top_spots_carnegie_museum_of_natural_history_open_time),
                 getString(R.string.top_spots_carnegie_museum_of_natural_history_phone),
                 getString(R.string.top_spots_carnegie_museum_of_natural_history_website),
                 getString(R.string.top_spots_carnegie_museum_of_natural_history_description)));
