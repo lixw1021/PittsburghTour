@@ -2,6 +2,8 @@ package com.xianwei.pittsburghtour;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
@@ -12,54 +14,22 @@ import butterknife.ButterKnife;
 import butterknife.OnItemClick;
 
 public class MainActivity extends AppCompatActivity {
-
-    @BindView(R2.id.list_root)
-    ListView listView;
-
-    PlaceAdapter placePlaceAdapter;
+    MainActivityAdapter mainActivityAdapter;
+    ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_root);
+        setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.cmunatural,
-                            4.5f,
-                            "Carnegie Museum of Natural History",
-                            "Exhibition on bones, gems and ecosystem",
-                            "4400 Forbes Ave, Pittsburgh, PA 15213, USA",
-                            "Mon - Fri : 9 am -5 pm \nSat - Sun: 9 am - 8 pm",
-                            "+1 412-622-3131",
-                            "http://cmoa.org/",
-                            "The museum consists of 115,000 square feet (10,700 m2) organized into 20 galleries as well as research, library, and office space. It holds some 22 million specimens, of which about 10,000 are on view at any given time and about 1 million are cataloged in online databases. In 2008 it hosted 386,300 admissions and 63,000 school group visits. Museum education staff also actively engage in outreach by traveling to schools all around western Pennsylvania."));
+        mainActivityAdapter = new MainActivityAdapter(getSupportFragmentManager());
+        viewPager = (ViewPager) findViewById(R.id.pager);
+        viewPager.setAdapter(mainActivityAdapter);
 
-        places.add(new Place(R.drawable.cmunatural,
-                            4.0f,
-                            "Carnegie Museum",
-                            "Exhibition on bones, gems and ecosystem",
-                            "4400 Forbes Ave, Pittsburgh, PA 15213, USA",
-                            "Mon - Fri : 9 am -5 pm \nSat - Sun: 9 am - 8 pm",
-                            "+1 321-622-3131",
-                            "http://cmoa.org/",
-                            "The museum consists of 115,000 square feet (10,700 m2) organized into 20 galleries as well as research, library, and office space. It holds some 22 million specimens, of which about 10,000 are on view at any given time and about 1 million are cataloged in online databases. In 2008 it hosted 386,300 admissions and 63,000 school group visits. Museum education staff also actively engage in outreach by traveling to schools all around western Pennsylvania."));
-
-        placePlaceAdapter = new PlaceAdapter(this, places);
-        listView.setAdapter(placePlaceAdapter);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        tabLayout.setupWithViewPager(viewPager);
     }
 
-    @OnItemClick(R2.id.list_root)
-    void onItemClick(int position) {
-        Place currentPlace = placePlaceAdapter.getItem(position);
-        Intent intent = new Intent(this,PlaceActivity.class);
-        intent.putExtra("ImageResourceId", currentPlace.getImageResourceId());
-        intent.putExtra("Title", currentPlace.getTitle());
-        intent.putExtra("Location", currentPlace.getLocation());
-        intent.putExtra("OpenTime", currentPlace.getOpenTime());
-        intent.putExtra("Phone", currentPlace.getPhone());
-        intent.putExtra("Website", currentPlace.getWebsite());
-        intent.putExtra("Description", currentPlace.getDescription());
-        startActivity(intent);
-    }
+
 }

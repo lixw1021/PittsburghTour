@@ -1,7 +1,6 @@
 package com.xianwei.pittsburghtour;
 
 import android.content.Context;
-import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -12,9 +11,6 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
-import java.security.PublicKey;
 import java.util.List;
 
 import butterknife.BindView;
@@ -45,7 +41,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         holder.imageView.setImageResource(place.getImageResourceId());
         holder.title.setText(place.getTitle());
         holder.ratingBar.setRating(place.getRating());
-        holder.introduction.setText(place.getIntrodution());
+        holder.introduction.setText(place.getIntroduction());
 
         return convertView;
     }

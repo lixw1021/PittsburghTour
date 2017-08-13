@@ -8,18 +8,18 @@ public class Place {
     private int imageResourceId;
     private float rating;
     private String title;
-    private String introdution;
+    private String introduction;
     private String location;
     private String openTime;
     private String phone;
     private String website;
     private String description;
 
-    public Place(int imageResourceId, float rating, String title, String introdution, String location, String openTime, String phone, String website, String description) {
+    public Place(int imageResourceId, float rating, String title, String introduction, String location, String openTime, String phone, String website, String description) {
         this.imageResourceId = imageResourceId;
         this.rating = rating;
         this.title = title;
-        this.introdution = introdution;
+        this.introduction = introduction;
         this.location = location;
         this.openTime = openTime;
         this.phone = phone;
@@ -39,8 +39,8 @@ public class Place {
         return title;
     }
 
-    public String getIntrodution() {
-        return introdution;
+    public String getIntroduction() {
+        return introduction;
     }
 
     public String getLocation() {
