@@ -33,7 +33,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         ViewHolder holder;
         if (convertView != null) {
             holder = (ViewHolder) convertView.getTag();
-        }else {
+        } else {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_item, parent, false);
             holder = new ViewHolder(convertView);
             convertView.setTag(holder);

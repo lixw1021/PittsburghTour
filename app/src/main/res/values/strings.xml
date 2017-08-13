@@ -1,3 +1,161 @@
 <resources>
     <string name="app_name">Pittsburgh Tour</string>
+
+    <string name="top_spots_dequesne_description">Take a step back in time on a century-old cable car and see the best views of downtown Pittsburgh while riding one of the few remaining inclines in the country. Opened on May 20, 1877, the Duquesne Incline was rescued and restored by a group of local residents in 1963 and still delights residents and visitors with its original, elegant, wooden cable cars.  Now you can visit the interior of the incline and watch the machinery while it operates.  The Duquesne Incline\'s upper station houses a museum of Pittsburgh history, including photos and a storehouse of information on inclines from around the world. Unusual Pittsburgh souvenirs, maps and photos can be found at the gift shop</string>
+    <string name="top_spots_dequesne_website">http://www.duquesneincline.org/</string>
+    <string name="top_spots_dequesne_title">The Society for the Preservation of the Duquesne Heights Incline</string>
+    <string name="top_spots_dequesne_introduction">A great spot to see the downtown pittsburgh</string>
+    <string name="top_spots_dequesne_location">1220 Grandview Ave, Pittsburgh, PA 15211</string>
+    <string name="top_spots_dequesne_open_time">Mon - Fri : 5:30 am -12:45 am  Sat - Sun: 7 am - 12:45 am</string>
+    <string name="top_spots_dequesne_phone">+1 412-381-1665</string>
+
+    <string name="top_spots_carnegie_museum_of_natural_history_title">Carnegie Museum of Natural History</string>
+    <string name="top_spots_carnegie_museum_of_natural_history_introduction"><![CDATA[Landmark museum featuring exhibits on dinosaur bones, geology & the impact of humans on ecosystems]]></string>
+    <string name="top_spots_carnegie_museum_of_natural_history_location">4400 Forbes Ave, Pittsburgh, PA 15213</string>
+    <string name="top_spots_carnegie_museum_of_natural_history_open_tome">Mon - Sat : 10 am -5 pm  Sun: 12  - 5 pm</string>
+    <string name="top_spots_carnegie_museum_of_natural_history_phone">+1 412-622-3131</string>
+    <string name="top_spots_carnegie_museum_of_natural_history_website">http://www.carnegiemnh.org/</string>
+    <string name="top_spots_carnegie_museum_of_natural_history_description">The museum consists of 115,000 square feet (10,700 m2) organized into 20 galleries as well as research, library, and office space. It holds some 22 million specimens, of which about 10,000 are on view at any given time and about 1 million are cataloged in online databases. In 2008 it hosted 386,300 admissions and 63,000 school group visits. Museum education staff also actively engage in outreach by traveling to schools all around western Pennsylvania.</string>
+
+    <string name="top_spots_cathedral_learning_title">Cathedral of Learning</string>
+    <string name="top_spots_cathedral_learning_introduction">Cathedral of Learning is the landmark of University of Pittsburgh</string>
+    <string name="top_spots_cathedral_learning_location">4200 Fifth Ave, Pittsburgh, PA 15260</string>
+    <string name="top_spots_cathedral_learning_open_time">24 Hours</string>
+    <string name="top_spots_cathedral_learning_phone">+1 412-624-4141</string>
+    <string name="top_spots_cathedral_learning_website">http://www.tour.pitt.edu/tour/cathedral-learning</string>
+    <string name="top_spots_cathedral_learning_description">The Gothic Revival skyscraper that Pitt Chancellor John G. Bowman commissioned in 1921 inspired local industries to donate steel, cement, elevators, glass, plumbing, and heating elements. Thousands of adults today still have the certificates they received as school children upon contributing 10 cents to “’buy a brick” for the Cathedral. In addition to its magnificent four-story Commons Room at ground level, the 42-story Cathedral houses classrooms (including the internationally renowned Nationality Classrooms) academic and administrative offices, libraries, computer labs, a theater, a print shop, and a food court. In 2007, on the 70th anniversary of the Cathedral’s dedication, Pitt trustees approved a project to clean and restore the iconic building. Its interior has since been upgraded and its limestone exterior scrubbed of industrial grime. A landmark listed in the National Register of Historic Places, the 535-foot-tall Cathedral is the second-tallest educational building in the world after the University of Moscow’s main building. In recent years, families of peregrine falcons have nested atop the Cathedral.</string>
+
+    <string name="top_spots_national_roon_title">Nationality Rooms at the Cathedral of Learning</string>
+    <string name="top_spots_national_roon_introduction">The Nationality Rooms are a collection of 30 classrooms in the University of Pittsburgh\'s Cathedral of Learning depicting and donated by the national and ethnic groups that helped build the city of Pittsburgh</string>
+    <string name="top_spots_national_roon_location">4200 Fifth Ave, Pittsburgh, PA 15260</string>
+    <string name="top_spots_national_roon_open_time">Mon - Sat : 9 am - 4 pm  Sun: 11 am - 4 pm</string>
+    <string name="top_spots_national_roon_phone">+1 412-624-6000</string>
+    <string name="top_spots_national_roon_website">http://www.nationalityrooms.pitt.edu/</string>
+    <string name="top_spots_national_roon_description">The Nationality Rooms are located on the first and third floors of the University of Pittsburgh\'s Cathedral of Learning. The rooms were designed to represent the culture of various ethnic groups that settled in Allegheny County and are supported by these cultural groups and governments. Tours are conducted year round. The public is invited to experience their ethnic identity and ancestral roots. The rooms are also in use as University classrooms.</string>
+
+    <string name="top_spots_garden_title">Phipps Conservatory and Botanical Gardens</string>
+    <string name="top_spots_garden_introduction"><![CDATA[Schenley Park\'s horticulture hub features botanical gardens & a steel-&-glass Victorian greenhouse]]></string>
+    <string name="top_spots_garden_location">1 Schenley Drive, Pittsburgh, PA 15213</string>
+    <string name="top_spots_garden_open_time">Mon - Th : 9:30 am - 5 pm  Fri: 9:30 am - 10 pm  Sat - Sun: 9:30 am - 5 pm</string>
+    <string name="top_spots_garden_phone">+1 412-622-6914</string>
+    <string name="top_spots_garden_website">https://www.phipps.conservatory.org/</string>
+    <string name="top_spots_garden_description">A green oasis in the middle of Pittsburgh’s vibrant Oakland neighborhood, Phipps has provided a world-class garden experience to its visitors since 1893. Visit to discover breathtaking seasonal flower shows, stunning outdoor botanical gardens, free-with-admission activities for all ages, an award-winning on-site café, and some of the greenest buildings in the world</string>
+
+    <string name="top_spots_zoo_title"><![CDATA[Pittsburgh Zoo & PPG Aquarium]]></string>
+    <string name="top_spots_zoo_introduction"><![CDATA[Animal center features an African Savanna, Asian Forest, Bear park, PPG Aquarium & Kids Kingdom]]></string>
+    <string name="top_spots_zoo_location">7340 Butler St, Pittsburgh, PA 15206</string>
+    <string name="top_spots_zoo_open_time">Mon - Sun : 9:30 am - 6 pm</string>
+    <string name="top_spots_zoo_phone">+1 412-655-3640</string>
+    <string name="top_spots_zoo_website">http://www.pittsburghzoo.org/</string>
+    <string name="top_spots_zoo_description">More than a century ago, philanthropist Christopher Lyman Magee donated $125,000 for the construction of a zoological garden in Pittsburgh\'s Highland Park neighborhood. On June 14, 1898, the Pittsburgh Zoo opened its gates to the public, providing visitors with a rare glimpse of animals and plants they had never seen before. Fitting in with the paradigm of the day, the Zoo resembled more of an animal menagerie than it does today. Through the years, however, the Zoo has transformed itself, incorporating naturalistic habitats for a great variety of species, as well as becoming a resource for conservation, education, and research. This evolution began in 1937 with the addition of outdoor bear exhibits. In 1949, Pittsburgh\'s first Children\'s Zoo opened--thanks to a generous grant from the Sarah Mellon Scaife Foundation. In the 40 years that followed, children delighted in the charming and imaginative exhibits--like walking into the mouth of whale with its soft spongy tongue, and the giant hunk of cheese that was home to dozens of mice. When the AquaZoo opened in 1967, it was the only public aquarium in Pennsylvania and the second largest aquarium in the country at the time.</string>
+
+    <string name="museum_cm_art_title">Carnegie Museum of Art</string>
+    <string name="museum_cm_art_introduction"><![CDATA[Sprawling contemporary art museum features permanent collections of paintings, sculptures & more]]></string>
+    <string name="museum_cm_art_location">4400 Forbes Ave, Pittsburgh, PA 15213</string>
+    <string name="museum_cm_art_open_time">Mon - Wed : 10 am - 5 pm  Thu: 10: am - 8 pm  Fri - Sat: 10 am - 5 pm  Sun: 12 - 5 pm</string>
+    <string name="museum_cm_art_phone">+1 412-622-3131</string>
+    <string name="museum_cm_art_website">http://cmoa.org/</string>
+    <string name="museum_cm_art_description">Carnegie Museum of Art is arguably the first museum of contemporary art in the United States, collecting the “Old Masters of tomorrow” since the inception of the Carnegie International in 1896. Today, the museum is one of the most dynamic major art institutions in America. Our collection of more than 30,000 objects features a broad spectrum of visual arts, including painting and sculpture; prints and drawings; photographs; architectural casts, renderings, and models; decorative arts and design; and film, video, and digital imagery. Through our programming, exhibitions, and publications, we frequently explore the role of art and artists in confronting key social issues of our time, combining and juxtaposing local and global perspectives. With our unique history and resources, we strive to become a leader in defining the role of art museums for the 21st century</string>
+
+    <string name="museum_heinz_history_title">Senator John Heinz History Center</string>
+    <string name="museum_heinz_history_introduction"><![CDATA[Smithsonian affiliate has 6 floors of historical exhibits, archives & a separate sports museum]]></string>
+    <string name="museum_heinz_history_location">1212 Smallman St, Pittsburgh, PA 15222</string>
+    <string name="museum_heinz_history_open_time">Mon - Sun: 10 am - 5 pm</string>
+    <string name="museum_heinz_history_phone">+1 412-454-6000</string>
+    <string name="museum_heinz_history_website">http://heinzhistorycenter.org</string>
+    <string name="museum_heinz_history_description"><![CDATA[Devoted to the history and heritage of Western Pennsylvania, the History Center (legal name – the Historical Society of Western Pennsylvania) is Pennsylvania’s largest history museum and a proud affiliate of the Smithsonian Institution. The Senator John Heinz History Center family of museums and programs includes the Heinz History Center, Western Pennsylvania Sports Museum, Fort Pitt Museum, Meadowcroft Rockshelter and Historic Village, Detre Library & Archives, and the new Museum Conservation Center. The 370,000 square-foot museum presents compelling stories from American history with a Western Pennsylvania connection in an interactive environment perfect for visitors of all ages]]></string>
+
+    <string name="museum_bicycle_title">Bicycle Heaven</string>
+    <string name="museum_bicycle_introduction">Doing repairs and selling used bikes and collecting vintage Antique and collectible bikes with over 3000 bikes scattered in garages through out the Bellevue area</string>
+    <string name="museum_bicycle_location">1800 Preble Ave, Pittsburgh, PA 15233</string>
+    <string name="museum_bicycle_open_time">Mon - Sun: 10 am - 7 pm</string>
+    <string name="museum_bicycle_phone">+1 412-734-4034</string>
+    <string name="museum_bicycle_website">http://bicycleheaven.org</string>
+    <string name="museum_bicycle_description"><![CDATA[Bicycle Heaven Museum was established in 2011 by Craig & Mindy Morrow.  It is the world\'s largest bicycle museum & shop, as seen in the New York Times and Associated Press.  Rated on Trip Advisor as the #1 Pittsburgh Museum and and voted top bike shop in Pittsburgh.   You can get your bike fixed, tuned up, or trade it in for a newer (or older) bicycle.  We also rent out bikes. You can see our bikes in movies such as: A Beautiful Mind, Super 8, Fathers & Daughters, Fences and many others.  On display in our museum is a Pee-wee Herman bike from the movie Pee-wee\'s Big Adventure!]]></string>
+
+    <string name="museum_carnegie_science_title">Carnegie Science Center</string>
+    <string name="museum_carnegie_science_introduction"><![CDATA[Museum & research center offers science-related exhibits, a planetarium, live shows & kids programs]]></string>
+    <string name="museum_carnegie_science_location">1 Allegheny Ave, Pittsburgh, PA 15212</string>
+    <string name="museum_carnegie_science_open_time">Mon - Sun: 10 am - 5 pm</string>
+    <string name="museum_carnegie_science_phone">+1 412-237-3400</string>
+    <string name="museum_carnegie_science_website">http://carnegiesciencecenter.org</string>
+    <string name="museum_carnegie_science_description">Recipient of the 2003 National Award for Museum Service, Carnegie Science Center inspires and entertains by connecting science and technology with everyday life. In addition to providing valuable scientific experiences, Carnegie Science Center engages in outreach programs that serve Pittsburgh\'s diverse community. The Science Center is located on Pittsburgh\'s North Shore along the banks of the Ohio River and is accessible to persons with disabilities.</string>
+
+    <string name="park_westend_title">West End-Elliott Overlook Park</string>
+    <string name="park_westend_introduction"><![CDATA[This park by the Ohio River offers city views & is a popular spot for summer movies & fireworks]]></string>
+    <string name="park_westend_location">Marlow St, Pittsburgh, PA 15205</string>
+    <string name="park_westend_open_time">24 Hours</string>
+    <string name="park_westend_phone">+1 412-255-2539</string>
+    <string name="park_westend_website">http://pittsburghpa.gov/citiparks/cinema-overlook</string>
+    <string name="park_westend_description"><![CDATA[This park by the Ohio River offers city views & is a popular spot for summer movies & fireworks]]></string>
+
+    <string name="park_emerala_title">Emerald View Park</string>
+    <string name="park_emerala_introduction">It encircles the neighborhoods of Mt. Washington, Duquesne Heights and Allentown and offers scenic views of the city that draw more than 1 million visitors annually</string>
+    <string name="park_emerala_location">Bailey Ave, Pittsburgh, PA 15211</string>
+    <string name="park_emerala_open_time">Mon - Sun: 6 am - 11 pm</string>
+    <string name="park_emerala_phone">+1 412-255-2539</string>
+    <string name="park_emerala_website">http://mwcdc.org/park/</string>
+    <string name="park_emerala_descrpition">Emerald View Park surrounds the neighborhoods of Duquesne Heights, Mount Washington and Allentown. The urban park that combines pre-existing park space with formerly mined and denuded hillsides was born out of a grassroots effort to protect Mount Washington’s steep hillsides and improve the quality of local park land.</string>
+
+    <string name="park_schenley_title">Schenley Park</string>
+    <string name="park_schenley_introduction"><![CDATA[Park has 456 acres of trails, a sportsplex, botanical gardens, cafe, visitors center & golf course]]></string>
+    <string name="park_schenley_location">1 Overlook Dr, Pittsburgh, PA 15238</string>
+    <string name="park_schenley_open_time">Mon - Sun: 6 am - 11 pm</string>
+    <string name="park_schenley_phone">+1 412-682-7275</string>
+    <string name="park_schenley_website">https://www.pittsburghparks.org/schenley-park</string>
+    <string name="park_schenley_description">Created in 1889 with land donated by heiress Mary Schenley, the park now contains 456 acres of trails, woods, and attractions. A daily destination for university students, business-people, and outdoor enthusiasts, the park also hosts major annual events such as the Vintage Grand Prix and the Pittsburgh Race for the Cure. Visitors to Schenley Park can spend a morning at the remarkable Phipps Conservatory, enjoy lunch and a concert at the Schenley Park Café and Visitor Center, relax on Flagstaff Hill, play a round at the Bob O’Connor Golf Course, head to the Schenley Oval Sportsplex for ice skating or summer sports, or take a dip in the swimming pool. And of course, the trails offer a refreshing and convenient escape from the city</string>
+
+    <string name="park_frick_title">Frick Park</string>
+    <string name="park_frick_introduction"><![CDATA[Lush city park featuring grassy picnic areas, off-leash dog play spots & wetlands]]></string>
+    <string name="park_frick_location">1981 Beechwood Blvd, Pittsburgh, PA 15217</string>
+    <string name="park_frick_open_time">Mon - Sun: 6 am - 11 pm</string>
+    <string name="park_frick_phone">+1 412-682-7275</string>
+    <string name="park_frick_website">https://www.pittsburghparks.org/frick-park</string>
+    <string name="park_frick_description">Although Henry Clay Frick bequeathed the original 151 acres to the city in 1919, the park did not open until 1927 after additional land had been acquired. Most recently, 106 acres were annexed to the park as part of the process that created the Summerset at Frick Park housing development and restored the Nine Mile Run stream valley. Today, Frick Park stretches from its northern borders in Point Breeze down to the Monongahela River.</string>
+
+    <string name="park_point_state_title">Point State Park</string>
+    <string name="park_point_state_introduction"><![CDATA[A 36-acre park at the intersection of 3 rivers has boating, hiking, biking & a Fort Pitt museum]]></string>
+    <string name="park_point_state_location">601 Commonwealth Pl, Pittsburgh, PA 15222</string>
+    <string name="park_point_state_open_time">24 Hours</string>
+    <string name="park_point_state_phone">+1 412-565-2850</string>
+    <string name="park_point_state_website">http://www.dcnr.state.pa.us/stateparks/findapark/point/</string>
+    <string name="park_point_state_description">Point State Park, located at the confluence of three rivers, is at the tip of Pittsburgh’s “Golden Triangle.” The park commemorates and preserves the strategic and historic heritage of the area during the French and Indian War (1754 - 1763). Once a busy industrial zone, the area had deteriorated into a commercial slum by the 1940s. The development of a state park was authorized in 1945 and the first parcel of the 36-acre property was purchased the next year. The park was completed and dedicated in 1974. In 1975, Point State Park was designated a National Historic Landmark.</string>
+
+    <string name="park_highland_title">Highland Park Entry Garden</string>
+    <string name="park_highland_introduction">Pittsburgh\'s need for a municipal water system brought about the creation of Highland Park in the late 1800</string>
+    <string name="park_highland_location">1467 N Highland Ave, Pittsburgh, PA 15206</string>
+    <string name="park_highland_open_time">24 Hours</string>
+    <string name="park_highland_phone">+1 412-628-7275</string>
+    <string name="park_highland_website">https://www.pittsburghparks.org/highland-park</string>
+    <string name="park_highland_description">By 1879, a reservoir that provided drinking water for the city was opened in an area surrounded by public land and greenery. People were naturally drawn to the site for its open space and scenic beauty, and the increasing popularity of the reservoir for picnics and passive recreation caught the attention of the Parks Commission. Twenty years later, the city made it official, establishing Highland Park by ordinance. Today, Reservoir No. 1 remains an iconic feature of Highland Park, and the Reservoir Loop is a favorite trail for walkers and joggers. The reservoir is accessed through the beautiful Entry Garden, a Victorian-style gathering place with gardens, a fountain and reflecting pool, and benches for relaxing. Highland Park also features a popular bike track, swimming pool, sand volleyball courts, and the Pittsburgh Zoo and PPG Aquarium. A water filtration plant cleans the water from the main reservoir, and waste water is naturally de-chlorinated in part by a brook which trickles into Lake Carnegie.</string>
+    <string name="restaurant_altius_title">Altius</string>
+    <string name="restaurant_altius_introduction"><![CDATA[New American dishes & craft cocktails]]></string>
+    <string name="restaurant_altius_location">1230 Grandview Ave, Pittsburgh, PA 15211</string>
+    <string name="restaurant_altius_phone">+1 412-904-4442</string>
+    <string name="restaurant_altius_website">http://altiusrestaurantpittsburgh.com</string>
+    <string name="restaurant_lemont_title">LeMont Restaurant</string>
+    <string name="restaurant_lemont_introduction"><![CDATA[Upscale eatery & event space offers Continental fare, city views, banquets & a live music lounge]]></string>
+    <string name="restaurant_lemont_location">1114 Grandview Ave, Pittsburgh, PA 15211</string>
+    <string name="restaurant_lemont_phone">+1 412-431-3100</string>
+    <string name="restaurant_lemont_website">http://lemontpittsburgh.com</string>
+    <string name="restaurant_church_title">The Church Brew Works</string>
+    <string name="restaurant_church_introduction"><![CDATA[Former church is now a lofty space for house-brewed beers, plus a mix of pizza, pierogi & bratwurst]]></string>
+    <string name="restaurant_church_location">3525 Liberty Ave, Pittsburgh, PA 15201</string>
+    <string name="restaurant_church_phone">+1 412-688-8200</string>
+    <string name="restaurant_church_website">http://churchbrew.com</string>
+    <string name="restaurant_point_title">Point Brugge Cafe</string>
+    <string name="restaurant_point_introduction"><![CDATA[Cozy European-style bistro with indoor & outdoor seating offers Belgian-inspired dishes & brunch]]></string>
+    <string name="restaurant_point_location">401 Hastings St, Pittsburgh, PA 15206</string>
+    <string name="restaurant_point_phone">+1 412-441-3334</string>
+    <string name="restaurant_point_website">http://pointbrugge.com</string>
+    <string name="restaurant_sichuan_title">Sichuan Gourmet</string>
+    <string name="restaurant_sichuan_introduction">Casual Chinese eatery offering a menu of staples plus many spicy Sichuan dishes in a bright space</string>
+    <string name="restaurant_sichuan_location">1900 Murray Ave, Pittsburgh, PA 15217</string>
+    <string name="restaurant_sichuan_phone">+1 412-521-1313</string>
+    <string name="restaurant_sichuan_website">http://sichuangourmetpa.com</string>
+    <string name="restaurant_everyday_title">Everyday Noodles</string>
+    <string name="restaurant_everyday_introduction">A casual Chinese eatery specializing in noodle dishes that\'s known for its kitchen viewing window</string>
+    <string name="restaurant_everyday_location">5875 Forbes Ave, Pittsburgh, PA 15217</string>
+    <string name="restaurant_everyday_phone">+1 412-421-6668</string>
+    <string name="restaurant_everyday_website">http://everydaynoodlespgh.com</string>
 </resources>

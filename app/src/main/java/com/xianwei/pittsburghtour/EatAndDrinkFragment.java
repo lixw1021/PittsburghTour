@@ -35,51 +35,51 @@ public class EatAndDrinkFragment extends Fragment {
 
         places.add(new Place(R.drawable.restaurant_altius,
                 5.0f,
-                "Altius",
-                "New American dishes & craft cocktails",
-                "1230 Grandview Ave, Pittsburgh, PA 15211",
-                "+1 412-904-4442",
-                "http://altiusrestaurantpittsburgh.com"));
+                getString(R.string.restaurant_altius_title),
+                getString(R.string.restaurant_altius_introduction),
+                getString(R.string.restaurant_altius_location),
+                getString(R.string.restaurant_altius_phone),
+                getString(R.string.restaurant_altius_website)));
 
         places.add(new Place(R.drawable.restaurant_lemont,
                 5.0f,
-                "LeMont Restaurant",
-                "Upscale eatery & event space offers Continental fare, city views, banquets & a live music lounge",
-                "1114 Grandview Ave, Pittsburgh, PA 15211",
-                "+1 412-431-3100",
-                "http://lemontpittsburgh.com"));
+                getString(R.string.restaurant_lemont_title),
+                getString(R.string.restaurant_lemont_introduction),
+                getString(R.string.restaurant_lemont_location),
+                getString(R.string.restaurant_lemont_phone),
+                getString(R.string.restaurant_lemont_website)));
 
         places.add(new Place(R.drawable.restaurant_church,
                 4.5f,
-                "The Church Brew Works",
-                "Former church is now a lofty space for house-brewed beers, plus a mix of pizza, pierogi & bratwurst",
-                "3525 Liberty Ave, Pittsburgh, PA 15201",
-                "+1 412-688-8200",
-                "http://churchbrew.com"));
+                getString(R.string.restaurant_church_title),
+                getString(R.string.restaurant_church_introduction),
+                getString(R.string.restaurant_church_location),
+                getString(R.string.restaurant_church_phone),
+                getString(R.string.restaurant_church_website)));
 
         places.add(new Place(R.drawable.restaurant_point,
                 4.5f,
-                "Point Brugge Cafe",
-                "Cozy European-style bistro with indoor & outdoor seating offers Belgian-inspired dishes & brunch",
-                "401 Hastings St, Pittsburgh, PA 15206",
-                "+1 412-441-3334",
-                "http://pointbrugge.com"));
+                getString(R.string.restaurant_point_title),
+                getString(R.string.restaurant_point_introduction),
+                getString(R.string.restaurant_point_location),
+                getString(R.string.restaurant_point_phone),
+                getString(R.string.restaurant_point_website)));
 
         places.add(new Place(R.drawable.restaurant_sichuan,
                 4.5f,
-                "Sichuan Gourmet",
-                "Casual Chinese eatery offering a menu of staples plus many spicy Sichuan dishes in a bright space",
-                "1900 Murray Ave, Pittsburgh, PA 15217",
-                "+1 412-521-1313",
-                "http://sichuangourmetpa.com"));
+                getString(R.string.restaurant_sichuan_title),
+                getString(R.string.restaurant_sichuan_introduction),
+                getString(R.string.restaurant_sichuan_location),
+                getString(R.string.restaurant_sichuan_phone),
+                getString(R.string.restaurant_sichuan_website)));
 
         places.add(new Place(R.drawable.restaurant_everyday,
                 4.5f,
-                "Everyday Noodles",
-                "A casual Chinese eatery specializing in noodle dishes that's known for its kitchen viewing window",
-                "5875 Forbes Ave, Pittsburgh, PA 15217",
-                "+1 412-421-6668",
-                "http://everydaynoodlespgh.com"));
+                getString(R.string.restaurant_everyday_title),
+                getString(R.string.restaurant_everyday_introduction),
+                getString(R.string.restaurant_everyday_location),
+                getString(R.string.restaurant_everyday_phone),
+                getString(R.string.restaurant_everyday_website)));
 
         placePlaceAdapter = new PlaceAdapter(getActivity(), places);
         listView.setAdapter(placePlaceAdapter);
@@ -90,7 +90,7 @@ public class EatAndDrinkFragment extends Fragment {
     @OnItemClick(R2.id.list_root)
     void onItemClick(int position) {
         Place currentPlace = placePlaceAdapter.getItem(position);
-        Intent intent = new Intent(getActivity(),PlaceActivity.class);
+        Intent intent = new Intent(getActivity(), PlaceActivity.class);
         intent.putExtra("ImageResourceId", currentPlace.getImageResourceId());
         intent.putExtra("Title", currentPlace.getTitle());
         intent.putExtra("Location", currentPlace.getLocation());
