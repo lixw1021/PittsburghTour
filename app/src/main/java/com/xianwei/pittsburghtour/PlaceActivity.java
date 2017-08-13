@@ -36,6 +36,7 @@ public class PlaceActivity extends AppCompatActivity {
     private String urlString;
     private String stringPhoneNumber;
     private String stringLocation;
+    private String stringOpenTime;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -50,11 +51,18 @@ public class PlaceActivity extends AppCompatActivity {
         urlString = intent.getStringExtra("Website");
         stringPhoneNumber = intent.getStringExtra("Phone");
         stringLocation = intent.getStringExtra("Location");
+        stringOpenTime = intent.getStringExtra("OpenTime");
 
         imageView.setImageResource(intent.getIntExtra("ImageResourceId", 0));
         title.setText(intent.getStringExtra("Title"));
         address.setText(stringLocation);
-        openTime.setText(intent.getStringExtra("OpenTime"));
+
+        if (stringOpenTime != null) {
+            openTime.setText(stringOpenTime);
+        } else {
+            openTime.setVisibility(View.GONE);
+        }
+
         phone.setText(stringPhoneNumber);
         website.setText(urlString);
         description.setText(intent.getStringExtra("Description"));

@@ -15,6 +15,16 @@ public class Place {
     private String website;
     private String description;
 
+    public Place(int imageResourceId, float rating, String title, String introduction, String location, String phone, String website) {
+        this.imageResourceId = imageResourceId;
+        this.rating = rating;
+        this.title = title;
+        this.introduction = introduction;
+        this.location = location;
+        this.phone = phone;
+        this.website = website;
+    }
+
     public Place(int imageResourceId, float rating, String title, String introduction, String location, String openTime, String phone, String website, String description) {
         this.imageResourceId = imageResourceId;
         this.rating = rating;

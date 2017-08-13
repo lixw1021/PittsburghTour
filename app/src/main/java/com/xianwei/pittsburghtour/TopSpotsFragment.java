@@ -19,9 +19,10 @@ import butterknife.OnItemClick;
  * Created by xianwei li on 8/12/2017.
  */
 
-public class TopSpots extends Fragment {
+public class TopSpotsFragment extends Fragment {
     @BindView(R2.id.list_root)
     ListView listView;
+
     PlaceAdapter placePlaceAdapter;
 
     @Nullable
