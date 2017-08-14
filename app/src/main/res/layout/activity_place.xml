@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:paddingTop="10dp"
-            android:textColor="#000000"
+            android:textColor="@color/colorbalck"
             android:textSize="18sp"
             tools:text="@string/top_spots_carnegie_museum_of_natural_history_title" />
 

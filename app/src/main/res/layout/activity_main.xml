@@ -10,10 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        app:tabIndicatorColor="#FFFFFF"
+        app:tabIndicatorColor="@color/colorWhite"
         app:tabMode="scrollable"
-        app:tabSelectedTextColor="#FFFFFF"
-        app:tabTextColor="#A8A19E" />
+        app:tabSelectedTextColor="@color/colorWhite"
+        app:tabTextColor="@color/colorGray" />
 
 
     <android.support.v4.view.ViewPager

@@ -23,7 +23,7 @@ public class EatAndDrinkFragment extends Fragment {
     @BindView(R2.id.list_root)
     ListView listView;
 
-    PlaceAdapter placePlaceAdapter;
+    private PlaceAdapter placePlaceAdapter;
 
     @Nullable
     @Override

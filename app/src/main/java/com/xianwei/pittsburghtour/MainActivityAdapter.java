@@ -10,10 +10,10 @@ import android.support.v4.app.FragmentPagerAdapter;
  * Created by xianwei li on 8/12/2017.
  */
 
-public class MainActivityAdapter extends FragmentPagerAdapter {
+ class MainActivityAdapter extends FragmentPagerAdapter {
 
     private String[] tableTitles;
-    public MainActivityAdapter(FragmentManager fm, Context context) {
+     MainActivityAdapter(FragmentManager fm, Context context) {
         super(fm);
         tableTitles = context.getResources().getStringArray(R.array.table_title);
     }
