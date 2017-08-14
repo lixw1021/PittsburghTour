@@ -1,5 +1,7 @@
 package com.xianwei.pittsburghtour;
 
+import android.content.Context;
+import android.content.res.Resources;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,9 +12,10 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class MainActivityAdapter extends FragmentPagerAdapter {
 
-    private String tableTitles[] = new String[] {"Top Spots", "Museum", "Park", "Eat&Drink"};
-    public MainActivityAdapter(FragmentManager fm) {
+    private String[] tableTitles;
+    public MainActivityAdapter(FragmentManager fm, Context context) {
         super(fm);
+        tableTitles = context.getResources().getStringArray(R.array.table_title);
     }
 
     @Override

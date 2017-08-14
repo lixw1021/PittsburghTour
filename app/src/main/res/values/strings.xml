@@ -128,34 +128,47 @@
     <string name="park_highland_phone">+1 412-628-7275</string>
     <string name="park_highland_website">https://www.pittsburghparks.org/highland-park</string>
     <string name="park_highland_description">By 1879, a reservoir that provided drinking water for the city was opened in an area surrounded by public land and greenery. People were naturally drawn to the site for its open space and scenic beauty, and the increasing popularity of the reservoir for picnics and passive recreation caught the attention of the Parks Commission. Twenty years later, the city made it official, establishing Highland Park by ordinance. Today, Reservoir No. 1 remains an iconic feature of Highland Park, and the Reservoir Loop is a favorite trail for walkers and joggers. The reservoir is accessed through the beautiful Entry Garden, a Victorian-style gathering place with gardens, a fountain and reflecting pool, and benches for relaxing. Highland Park also features a popular bike track, swimming pool, sand volleyball courts, and the Pittsburgh Zoo and PPG Aquarium. A water filtration plant cleans the water from the main reservoir, and waste water is naturally de-chlorinated in part by a brook which trickles into Lake Carnegie.</string>
+
     <string name="restaurant_altius_title">Altius</string>
     <string name="restaurant_altius_introduction"><![CDATA[New American dishes & craft cocktails]]></string>
     <string name="restaurant_altius_location">1230 Grandview Ave, Pittsburgh, PA 15211</string>
     <string name="restaurant_altius_phone">+1 412-904-4442</string>
     <string name="restaurant_altius_website">http://altiusrestaurantpittsburgh.com</string>
+
     <string name="restaurant_lemont_title">LeMont Restaurant</string>
     <string name="restaurant_lemont_introduction"><![CDATA[Upscale eatery & event space offers Continental fare, city views, banquets & a live music lounge]]></string>
     <string name="restaurant_lemont_location">1114 Grandview Ave, Pittsburgh, PA 15211</string>
     <string name="restaurant_lemont_phone">+1 412-431-3100</string>
     <string name="restaurant_lemont_website">http://lemontpittsburgh.com</string>
+
     <string name="restaurant_church_title">The Church Brew Works</string>
     <string name="restaurant_church_introduction"><![CDATA[Former church is now a lofty space for house-brewed beers, plus a mix of pizza, pierogi & bratwurst]]></string>
     <string name="restaurant_church_location">3525 Liberty Ave, Pittsburgh, PA 15201</string>
     <string name="restaurant_church_phone">+1 412-688-8200</string>
     <string name="restaurant_church_website">http://churchbrew.com</string>
+
     <string name="restaurant_point_title">Point Brugge Cafe</string>
     <string name="restaurant_point_introduction"><![CDATA[Cozy European-style bistro with indoor & outdoor seating offers Belgian-inspired dishes & brunch]]></string>
     <string name="restaurant_point_location">401 Hastings St, Pittsburgh, PA 15206</string>
     <string name="restaurant_point_phone">+1 412-441-3334</string>
     <string name="restaurant_point_website">http://pointbrugge.com</string>
+
     <string name="restaurant_sichuan_title">Sichuan Gourmet</string>
     <string name="restaurant_sichuan_introduction">Casual Chinese eatery offering a menu of staples plus many spicy Sichuan dishes in a bright space</string>
     <string name="restaurant_sichuan_location">1900 Murray Ave, Pittsburgh, PA 15217</string>
     <string name="restaurant_sichuan_phone">+1 412-521-1313</string>
     <string name="restaurant_sichuan_website">http://sichuangourmetpa.com</string>
+
     <string name="restaurant_everyday_title">Everyday Noodles</string>
     <string name="restaurant_everyday_introduction">A casual Chinese eatery specializing in noodle dishes that\'s known for its kitchen viewing window</string>
     <string name="restaurant_everyday_location">5875 Forbes Ave, Pittsburgh, PA 15217</string>
     <string name="restaurant_everyday_phone">+1 412-421-6668</string>
     <string name="restaurant_everyday_website">http://everydaynoodlespgh.com</string>
+
+    <string-array name="table_title">
+        <item>Top Spots</item>
+        <item>Museum</item>
+        <item>Park</item>
+        <item>Eat&amp;Drink</item>
+    </string-array>
 </resources>

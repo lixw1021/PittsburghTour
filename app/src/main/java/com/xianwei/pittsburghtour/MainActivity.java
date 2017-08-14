@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        mainActivityAdapter = new MainActivityAdapter(getSupportFragmentManager());
+        mainActivityAdapter = new MainActivityAdapter(getSupportFragmentManager(), this);
         viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setAdapter(mainActivityAdapter);
 
